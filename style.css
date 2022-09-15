@@ -1,0 +1,91 @@
+:root{
+    --color1:#326ba8;
+    --color2:#32a859;
+    --color3:#a88532;
+
+}
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background-color: burlywood;
+  }
+
+ /* added hover*/
+  .a:hover{
+    background-color: red;
+    border-style: solid;
+    
+
+  }
+/* added padding and border*/
+  .a{
+    padding-right: 20px;
+    border-style: solid;
+    transition: 3s;
+
+    
+  }
+
+  .detail{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border: 30px black;
+  }
+
+  p{
+    padding-bottom: 20px;
+    
+  }
+/* added some desgins */
+  .big{
+    width: 50%;
+    
+
+
+  }
+
+  nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px, 20px;
+
+  }
+
+  /* added some desgins */
+
+
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+ }
+
+ nav ul li:hover{
+    color: red;
+ }
+ .a:hover{
+   background-color: red;
+   border: 5px;
+   border-color: red;
+   border-style: solid;
+
+ }
+
+ .footer{
+    text-align: center;
+ }
+
+
+
